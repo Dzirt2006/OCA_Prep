@@ -32,6 +32,8 @@ public class Syntax {
         strSyn.strBuilder();
         strSyn.clangeValues(strSyn.obj1);
         strSyn.checck();
+
+
     }
 
     private boolean TRUE() {

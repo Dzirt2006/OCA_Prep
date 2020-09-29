@@ -9,6 +9,7 @@ public class Propagate {
             prop.reversed("");
         }catch(Exception e){
             System.out.println(e);
+            e.printStackTrace();
         }finally {
             System.out.println("Hey Ho!");
         }

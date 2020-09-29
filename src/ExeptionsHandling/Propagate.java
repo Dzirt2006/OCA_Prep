@@ -19,7 +19,7 @@ public class Propagate {
             throw new Exception("Auchtung! ");
         }
         String reversed = "";
-        for(int i=str.length()-1;i>=0;--i){
+        for(int i=str.length()-1;i>=0;--i){ //without throw this expression is ok and doesn't throw ArrayBound Exception
             reversed+=str.charAt(i);
         }
         return reversed;

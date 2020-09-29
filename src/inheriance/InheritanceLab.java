@@ -85,7 +85,7 @@ public class InheritanceLab {
     public double weight() {
         return volume() * weightPerUofM;
     }
-
+ 
     public enum UnitOfMeasureType {
         LITER, GALLON, CUBIC_METER,
         CUBIC_FEET

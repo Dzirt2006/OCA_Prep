@@ -7,7 +7,7 @@ public class Propagate {
         Propagate prop=new Propagate();
         try {
             prop.reversed("");
-        }catch(Exception e){
+        }catch(StringIndexOutOfBoundsException e){
             System.out.println(e);
             e.printStackTrace();
         }finally {
@@ -15,9 +15,9 @@ public class Propagate {
         }
     }
 
-    String reversed(String str) throws Exception {
+    String reversed(String str) throws StringIndexOutOfBoundsException { //annotation 
         if (str.length() < 1) {
-            throw new Exception("Auchtung! ");
+            throw new StringIndexOutOfBoundsException("Auchtung! ");//specify exceptions!
         }
         String reversed = "";
         for(int i=str.length()-1;i>=0;--i){ //without throw this expression is ok and doesn't throw ArrayBound Exception

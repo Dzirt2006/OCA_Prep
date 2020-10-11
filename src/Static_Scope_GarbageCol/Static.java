@@ -4,7 +4,8 @@ package Static_Scope_GarbageCol;
 
 
 public class Static {
-
+ protected int p=9;
+ int np=0;
     public void invoke() {
         Car myCar, myCar1 = new Car();//initialize last element in the list
         myCar = new Car();

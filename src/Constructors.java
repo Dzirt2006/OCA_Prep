@@ -23,6 +23,7 @@ class Base
 
 class Derived extends Base
 {
+
     // constructor 3
     Derived()
     {

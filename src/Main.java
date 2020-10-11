@@ -10,6 +10,7 @@ public class Main {
 //        System.out.println(year.getYear());
         Static newT=new Static();
         newT.invoke();
+
     }
 }
 
